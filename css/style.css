@@ -1,0 +1,54 @@
+body, body h1, body button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.wrapper {
+  padding: 1rem 3rem;
+}
+
+h1 {
+  color: rgb(116, 66, 143);
+}
+
+
+.hr {
+  background-color: rgb(158, 158, 158);
+  height: 1px;
+}
+
+.item {
+  color: rgb(140,140,140);
+  padding: 2rem 0;
+  line-height: 3.5rem;
+  background: none;
+  border: none;
+  text-align: left;
+}
+
+.item input {
+  display: none;
+}
+
+:checked + label {
+  text-decoration: line-through;
+}
+
+:checked {
+  background: gray;
+}
+
+button {
+  margin: 3rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  color: white;
+  background: rgb(116, 66, 143);
+  border-radius: 1rem;
+}
+
+button:active {
+  background: rgb(78, 43, 97)
+}
